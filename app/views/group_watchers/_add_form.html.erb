@@ -1,0 +1,9 @@
+<% if !@issue.nil? %>
+<span class="group_for_watchers">
+  <%= link_to l(:label_group_for_watchers),
+              {:controller => 'group_watchers', :action => 'new', :project_id => @issue.project},
+              :class => 'icon icon-add-bullet',
+              :remote => true,
+              :method => 'get' %>
+</span>
+<% end %>

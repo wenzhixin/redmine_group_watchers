@@ -1,0 +1,3 @@
+$('#ajax-modal').html('<%= escape_javascript(render :partial => 'group_watchers/new', :locals => {:watchables => @watchables, :groups => @groups}) %>')
+showModal('ajax-modal', '400px')
+$('#ajax-modal').addClass('new-watcher')

@@ -1,0 +1,3 @@
+= group_watchers
+
+Group Watchers for Redmine
